@@ -3,7 +3,7 @@ int main(){
 	int i,j;
 	printf("Paramid Pattern\n");
 	for(i=1;i<6;i++){
-		printf("%d:",i);
+		printf("%4d:",i);
 		for(j=1;j<6;j++){
 			printf(" %d  ",i*j);
 		}
@@ -11,3 +11,4 @@ int main(){
 	}
 	return 0;
 }
+

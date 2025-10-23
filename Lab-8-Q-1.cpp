@@ -5,11 +5,12 @@ int main(){
 	for(i=1;i<6;i++){
 		printf("%d:",i);
 		for(j=1;j<6;j++){
-			printf(" %4d  ",i*j);
+			printf("%4d",i*j);
 		}
 		printf(" \n");
 	}
 	return 0;
 }
+
 
 
